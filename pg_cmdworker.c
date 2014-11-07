@@ -1,5 +1,11 @@
 #include "postgres.h"
 
+#include "fmgr.h"
+#include "miscadmin.h"
+#include "postmaster/bgworker.h"
+#include "storage/ipc.h"
+#include "utils/guc.h"
+
 PG_MODULE_MAGIC;
 
 void		_PG_init(void);

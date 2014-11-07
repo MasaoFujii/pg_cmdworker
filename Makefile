@@ -1,6 +1,4 @@
 MODULES = pg_cmdworker
-
-EXTENSION = pg_cmdworker
 PGFILEDESC = "pg_cmdworker - make bgworker run the command"
 
 ifdef USE_PGXS

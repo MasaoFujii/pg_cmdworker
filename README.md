@@ -1,2 +1,2 @@
-pg_command_worker
+pg_cmdworker
 =================

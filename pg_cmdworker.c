@@ -20,6 +20,8 @@ cmdworker_main(Datum main_arg)
 {
 	int			rc;
 
+	BackgroundWorkerUnblockSignals();
+
 	rc = system(cmdworker_command);
 	if (rc != 0)
 	{
